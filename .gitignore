@@ -1,0 +1,6 @@
+# Ignorar archivos de información específics (.txt)
+information.txt
+# Ignorar la carpeta de virtualenv
+env
+# Ignorar el archivo de Docker
+Dockerfile
