@@ -5,3 +5,5 @@ env
 .vscode
 # Ignorar el archivo de Docker
 Dockerfile
+# Ignorar los archivos .bat
+*.bat
