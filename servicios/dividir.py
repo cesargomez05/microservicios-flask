@@ -18,7 +18,7 @@ def sumar():
     # Se valida si alguno de los valores no son números
     if num1 is None or num2 is None:
         return jsonify(message="Por favor define un valor entero en los parámetros 'num1' y 'num2'")
-    
+
     return jsonify(result=num1 - num2)
 
 if __name__ == '__main__':
