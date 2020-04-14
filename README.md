@@ -14,10 +14,20 @@ Establecer una arquitectura orientada a microservicios usando el micro-framework
 * Flask 1.1.2
 * Docker
 
-## Uso e instalación
+## Pasos para ejecución
+1. Ejecutar cada uno de los scripts en Python
+> python servicios/sumar.py
+> python servicios/restar.py
+> python servicios/multiplicar.py
+> python servicios/dividir.py
 
-### Clonando el proyecto
+2. Utilizar un cliente web (por ejemplo, Postman) para ejecutar cada uno de los servicios
 
-### Usando Docker
-
-## Uso de microservicios
+    * Servicio de suma
+    > http://127.0.0.1:4001/sumar?num1=176&num2=65
+    * Servicio de resta
+    > http://127.0.0.1:4002/restar?num1=176&num2=65
+    * Servicio de multiplicación
+    > http://127.0.0.1:4003/multiplicar?num1=176&num2=65
+    * Servicio de división
+    > http://127.0.0.1:4004/dividir?num1=176&num2=65
