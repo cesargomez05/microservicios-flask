@@ -17,8 +17,11 @@ Establecer una arquitectura orientada a microservicios usando el micro-framework
 ## Pasos para ejecución
 1. Ejecutar cada uno de los scripts en Python
 > python servicios/sumar.py
+
 > python servicios/restar.py
+
 > python servicios/multiplicar.py
+
 > python servicios/dividir.py
 
 2. Utilizar un cliente web (por ejemplo, Postman) para ejecutar cada uno de los servicios
