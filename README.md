@@ -12,7 +12,6 @@ Establecer una arquitectura orientada a microservicios usando el micro-framework
 ## Tecnologías empleadas
 * Python 3.8.2
 * Flask 1.1.2
-* Docker
 
 ## Pasos para ejecución
 1. Ejecutar cada uno de los scripts en Python
