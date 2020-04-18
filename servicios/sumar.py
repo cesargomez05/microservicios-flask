@@ -3,8 +3,12 @@ from functools import wraps
 
 app = Flask(__name__)
 
+@app.errorhandler(404)
+def not_found(error):
+    return jsonify(message="La opción a ejecutar no es válida")
+
 # Ruta de inicio para validar funcionamiento de la aplicación en Flask
-@app.route('/sumar', methods = ['POST'])
+@app.route('/', methods = ['POST'])
 def sumar():
     args = request.args
 
