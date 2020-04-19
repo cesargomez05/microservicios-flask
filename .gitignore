@@ -1,0 +1,7 @@
+# Ignorar archivos de texto plano (.txt)
+*.txt
+# Ignorar la carpeta de virtualenv, y configuración de Visual Studio
+venv
+.vscode
+# Ignorar los archivos .bat
+*.bat
