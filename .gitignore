@@ -1,9 +1,0 @@
-# Ignorar archivos de información específics (.txt)
-information.txt
-# Ignorar la carpeta de virtualenv, y configuración de Visual Studio
-env
-.vscode
-# Ignorar el archivo de Docker
-Dockerfile
-# Ignorar los archivos .bat
-*.bat
