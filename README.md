@@ -86,3 +86,22 @@ docker ps
 8. Ingresamos a nuestro cliente HTTP de preferencia, por ejemplo [Postman](https://www.postman.com/), [Insomnia](https://insomnia.rest/)), o cualquier otro, y ejecutamos el llamado a cada uno de los microservicios.
 
 - Sumar
+```
+PATH
+POST http://127.0.0.1:8000/sumar?num1={valor1}&num2={valor2}
+```
+- Restar
+```
+PATH
+POST http://127.0.0.1:8000/restar?num1={valor1}&num2={valor2}
+```
+- Multiplicar
+```
+PATH
+POST http://127.0.0.1:8000/multiplicar?num1={valor1}&num2={valor2}
+```
+- Dividir
+```
+PATH
+POST http://127.0.0.1:8000/dividir?num1={valor1}&num2={valor2}
+```
