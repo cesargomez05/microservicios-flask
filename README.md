@@ -10,10 +10,11 @@
 Establecer una arquitectura orientada a microservicios usando el micro-framework [Flask](https://flask.palletsprojects.com/en/1.1.x/) para ofrecer la implementación de los servicios de suma, resta, multiplicación y división.
 
 ## Tecnologías empleadas
+
 * Python 3.7
 * Flask 1.1.2
 * Docker
-* Kong Gateway
+
 
 ## Uso e instalación de microservicios
 
