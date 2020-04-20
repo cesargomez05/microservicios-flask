@@ -5,3 +5,4 @@ venv
 .vscode
 # Ignorar los archivos .bat
 *.bat
+README.md

@@ -6,9 +6,12 @@ app = Flask(__name__)
 def not_found(error):
     return jsonify(message="La opción a ejecutar no es válida")
 
+@app.errorhandler(405)
+def not_method(error):
+    return jsonify(message="La operación solamente puede ejecutarse con el método POST")
+
 # Función decoradora para validar los dos parámetros de la función
 def validate_params(f):
-    @wraps(f)
     def decorated(*args, **kwargs):
         args = request.args
 

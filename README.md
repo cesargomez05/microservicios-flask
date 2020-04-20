@@ -13,4 +13,9 @@ Establecer una arquitectura orientada a microservicios usando el micro-framework
 * Python 3.7
 * Flask 1.1.2
 * Docker
+* Kong Gateway
 
+## Uso e instalación de microservicios
+
+1. Instalar Docker
+2. 
